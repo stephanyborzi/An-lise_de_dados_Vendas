@@ -58,30 +58,3 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 
 2. O script exportará arquivos Excel chamados `vendas_por_mes.xlsx`, `lucro_por_departamento.xlsx` e `modos_envio_sp.xlsx`, além de salvar os gráficos correspondentes como `vendas_por_mes.png`, `lucro_por_departamento.png` e `modos_envio_sp.png`. Ele também gerará um relatório PDF chamado `Relatório_2023.pdf`.
 
-## Funções
-
-### `grafico_vendas_por_mes`
-
-Esta função cria um gráfico das vendas mensais.
-
-```python
-def grafico_vendas_por_mes(df, filename):
-    df["vendas_numerico"] = df["vendas"].str.replace("R\$", "", regex=True).astype(float)
-    
-    fig, ax = plt.subplots(figsize=(12, 6), dpi=100)
-    ax.plot(df["Mês"], df["vendas_numerico"], lw=3, marker="o", color='tab:blue')
-    ax.set_title("Total de Vendas", fontsize=18, loc="left")
-    ax.set_xlabel("Mês", fontsize=14)
-    ax.set_ylabel("Vendas (em milhares de reais)", fontsize=14)
-    ax.set_frame_on(False)
-    ax.grid(True, color='gray', linestyle="--")
-    
-    ax.tick_params(axis='both', which='both', length=0)
-    plt.ylim(0, df["vendas_numerico"].max() + 100)
-
-    for i, row in df.iterrows():
-        ax.annotate(f"R${row['vendas_numerico']:.2f}", xy=(row['Mês'], row['vendas_numerico']), 
-                    xytext=(5, 5), textcoords='offset points', fontsize=10)
-    
-    plt.savefig(filename, dpi=100, bbox_inches='tight', pad_inches=0)
-    plt.show()
