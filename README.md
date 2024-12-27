@@ -1,4 +1,4 @@
-=# Análise de Vendas Mensais, Lucro por Departamento e Modos de Envio em São Paulo
+# Análise de Vendas Mensais, Lucro por Departamento e Modos de Envio em São Paulo
 
 Este projeto realiza a análise das vendas mensais, lucro por departamento e modos de envios mais utilizados em São Paulo. Ele cria gráficos a partir dos dados, exporta os resultados para arquivos Excel e gera um relatório PDF.
 
