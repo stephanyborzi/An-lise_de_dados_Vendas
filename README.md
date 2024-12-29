@@ -1,6 +1,6 @@
 # Análise de Vendas Mensais, Lucro por Departamento e Modos de Envio em São Paulo
 
-Este projeto realiza a análise das vendas mensais, lucro por departamento e modos de envios mais utilizados em São Paulo. Ele cria gráficos a partir dos dados, exporta os resultados para arquivos Excel e gera um relatório PDF.
+Este projeto realiza a análise das vendas mensais, lucro por departamento, modos de envios mais utilizados em São Paulo e lucros mensais na região Centro-Oeste. Ele cria gráficos a partir dos dados, exporta os resultados para arquivos Excel e gera um relatório PDF.
 
 ## Sumário
 
@@ -12,10 +12,11 @@ Este projeto realiza a análise das vendas mensais, lucro por departamento e mod
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 - [Contato](#contato)
+- [Dashboard](#dashboard)
 
 ## Descrição
 
-Este projeto foi desenvolvido para analisar os dados de vendas mensais, lucro por departamento e modos de envio mais utilizados em São Paulo. Ele gera gráficos ilustrativos, exporta os dados processados para arquivos Excel e gera um relatório PDF detalhado. O principal objetivo é fornecer visualizações claras e compreensíveis das tendências e padrões encontrados nos dados.
+Este projeto foi desenvolvido para analisar os dados de vendas mensais, lucro por departamento, modos de envio mais utilizados em São Paulo e lucros mensais na região Centro-Oeste. Ele gera gráficos ilustrativos, exporta os dados processados para arquivos Excel e gera um relatório PDF detalhado. O principal objetivo é fornecer visualizações claras e compreensíveis das tendências e padrões encontrados nos dados.
 
 ## Pré-requisitos
 
@@ -56,5 +57,26 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
     python script_principal.py
     ```
 
-2. O script exportará arquivos Excel chamados `vendas_por_mes.xlsx`, `lucro_por_departamento.xlsx` e `modos_envio_sp.xlsx`, além de salvar os gráficos correspondentes como `vendas_por_mes.png`, `lucro_por_departamento.png` e `modos_envio_sp.png`. Ele também gerará um relatório PDF chamado `Relatório_2023.pdf`.
+2. O script exportará arquivos Excel chamados `vendas_por_mes.xlsx`, `lucro_por_departamento.xlsx`, `modos_envio_sp.xlsx`, `lucro_por_regiao.xlsx` e `lucro_ano_mes_centro_oeste.xlsx`, além de salvar os gráficos correspondentes como `vendas_por_mes.png`, `lucro_por_departamento.png`, `modos_envio_sp.png`, `lucro_por_regiao.png` e `lucro_ano_mes_centro_oeste.png`. Ele também gerará um relatório PDF chamado `Relatório_2023.pdf`.
+
+## Dashboard
+
+![image](https://github.com/user-attachments/assets/d8fd9142-3f9a-4433-a356-28b1892500a9)
+
+
+## Funções
+
+(Descreva as funções principais do projeto aqui)
+
+## Contribuição
+
+(Descreva como contribuir para o projeto aqui)
+
+## Licença
+
+(Diga qual licença o projeto está utilizando aqui)
+
+## Contato
+
+(Forneça informações de contato aqui)
 
