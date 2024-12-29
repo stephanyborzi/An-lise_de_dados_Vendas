@@ -58,7 +58,7 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
     python script_principal.py
     ```
 
-2. O script exportará arquivos Excel chamados `vendas_por_mes.xlsx`, `lucro_por_departamento.xlsx`, `modos_envio_sp.xlsx`, `lucro_por_regiao.xlsx` e `lucro_ano_mes_centro_oeste.xlsx`, além de salvar os gráficos correspondentes como `vendas_por_mes.png`, `lucro_por_departamento.png`, `modos_envio_sp.png`, `lucro_por_regiao.png` e `lucro_ano_mes_centro_oeste.png`. Ele também gerará um relatório PDF chamado `Relatório_2023.pdf`.
+2. O script exportará arquivos Excel chamados `tb_distribuicao_lucro_por_regiao.xlsx`, `tb_envio_sp.xlsx`,`tb_lucro_dpt.xlsx`,`tb_lucro_por_produto.xlsx` e `tb_vendas_por_mes.xlsx`, além de salvar os gráficos correspondentes como `Vendas_por_mes.png`, `Lucro_por_Departamento_Anual.png`, `Modos_Envio_São_Paulo.png`, `Lucro_por_regiao_barras.png` e `Lucro_por_produto.png`. Ele também gerará um relatório PDF chamado `Relatório_2023.pdf`.
 
 ## Dashboard
 
