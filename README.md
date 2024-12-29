@@ -1,6 +1,6 @@
-# Análise de Vendas Mensais, Lucro por Departamento e Modos de Envio em São Paulo
+# Análise de Vendas
 
-Este projeto realiza a análise das vendas mensais, lucro por departamento, modos de envios mais utilizados em São Paulo e lucros mensais na região Centro-Oeste. Ele cria gráficos a partir dos dados, exporta os resultados para arquivos Excel e gera um relatório PDF.
+Este projeto realiza a análise das vendas mensais, lucro por departamento, modos de envios mais utilizados em São Paulo e lucros por estado brasileiro e por produto no ano de 2023. Ele cria gráficos a partir dos dados, exporta os resultados para arquivos Excel e gera um relatório PDF.
 
 ## Sumário
 
@@ -64,19 +64,4 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 ![image](https://github.com/user-attachments/assets/d8fd9142-3f9a-4433-a356-28b1892500a9)
 
 
-## Funções
-
-(Descreva as funções principais do projeto aqui)
-
-## Contribuição
-
-(Descreva como contribuir para o projeto aqui)
-
-## Licença
-
-(Diga qual licença o projeto está utilizando aqui)
-
-## Contato
-
-(Forneça informações de contato aqui)
 
