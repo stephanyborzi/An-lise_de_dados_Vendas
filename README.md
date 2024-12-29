@@ -68,17 +68,26 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 
 ## Funções
 
-(Descreva as funções principais do projeto aqui)
+Análise de vendas mensais
+
+Cálculo de lucro por departamento
+
+Identificação dos modos de envio mais utilizados em São Paulo
+
+Cálculo do lucro total
+
+Segmentação de lucros por tipo de cliente
+
+Análise de lucros por estado brasileiro
+
+Análise de lucros por produto no ano de 2023
 
 ## Contribuição
 
-(Descreva como contribuir para o projeto aqui)
+Contribuições são bem-vindas! Se você tem sugestões, encontrou um bug ou deseja adicionar uma nova funcionalidade, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Licença
 
-(Diga qual licença o projeto está utilizando aqui)
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## Contato
-
-(Forneça informações de contato aqui)
 
