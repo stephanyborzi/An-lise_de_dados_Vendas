@@ -62,8 +62,7 @@ Antes de começar, certifique-se de que você tem os seguintes requisitos atendi
 
 ## Dashboard
 
-![image](https://github.com/user-attachments/assets/ee1fb9ab-0081-4a41-8e20-9d9f4af897b5)
-
+![image](https://github.com/user-attachments/assets/da522f90-a324-4774-bad1-e97cc7cadca9)
 
 
 ## Funções
