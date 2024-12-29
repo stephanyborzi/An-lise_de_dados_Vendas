@@ -1,4 +1,5 @@
-#📊 Análise de Vendas 2023
+## 📊 Análise de Vendas 2023
+
 Este projeto realiza uma análise abrangente das vendas mensais, lucro por departamento, modos de envio mais utilizados em São Paulo, lucro total, lucro por segmentação de clientes, lucros por estado brasileiro e por produto no ano de 2023. Ele cria gráficos a partir dos dados, exporta os resultados para arquivos Excel e gera um relatório PDF
 
 ## Sumário
